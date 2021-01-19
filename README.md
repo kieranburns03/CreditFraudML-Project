@@ -23,4 +23,4 @@ Furthermore, columns V1 to V28 have gone through a PCA transformation to reduce 
 ## Evaluation
 
 The program also gives the user the opton to create a graph of the tree when building the Random Forest Classifier Model which is saved as a .dot file and converted into a PNG. This could be used to adapt the model in the future if the fraudsters use other tactics to avoid detection by the RFC Model.
-!['tree'](Tree.png)
+!['tree'](Assets/Tree.png)
