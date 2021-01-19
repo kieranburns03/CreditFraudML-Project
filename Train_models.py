@@ -1,5 +1,4 @@
 
-import os
 def Train_model(mdl):
     module = __import__(mdl.replace('Model', ''))
     module.get_data()
