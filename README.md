@@ -9,6 +9,8 @@ It makes use of these models from the scikit library:
 
 The dataset used is available here https://www.kaggle.com/mlg-ulb/creditcardfraud and contains anonymised data from two days, where there are 492 fraudulent transactions out of 284,807. The dataset is highly unbalanced, the frauds account for just 0.172% of all transactions.
 
+An example of the code in notebook form can be found [here](main.py.ipynb)
+
 The program main.py will ask the user which models they want to train. The program will call the subprogram for training each model on a random selection of the dataset. Each trained model is saved to disk in a .sav file so that new predictions can be made without having to retrain each one. They will then have the option to make predictions on the dataset for each. The transactions that the program classes as suspicious are saved to a csv file for later reference.
 !['o1'](Assets/o1.png)
 !['p1'](Assets/p1.png)
